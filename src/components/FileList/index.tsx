@@ -4,7 +4,7 @@ import { Container, FileInfo } from './styles';
 
 interface FileProps {
   name: string;
-  readableSize: string;
+  readableSize: number;
 }
 
 interface FileListProps {
